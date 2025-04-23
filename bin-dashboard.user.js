@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Mobility BIN Dashboard Ultra PRO
-// @namespace    https://github.com/hpotlia/mobility-bin-dashboard
+// @namespace    https://github.com/hashpotlia/mobility-bin-dashboard
 // @version      1.4.0
 // @description  Real-time BIN Weight + Count dashboard for Mobility!
 // @author       @hpotlia
