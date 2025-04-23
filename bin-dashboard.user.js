@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Mobility BIN Dashboard Ultra PRO
 // @namespace    https://github.com/hpotlia/mobility-bin-dashboard
-// @version      1.3.0
+// @version      1.4.0
 // @description  Real-time BIN Weight + Count dashboard for Mobility!
 // @author       @hpotlia
 // @match        https://mobility.amazon.com/
@@ -19,6 +19,8 @@
   let queue = [];
 
   const deviceWeights = {
+      // Big thanks and shoutout to [https://tiny.amazon.com/aickgbkp] for list...
+      // More device/product are coming...apart form this list...
   "SRX5800E-BASE-AC": 181.44,
   "SRX5800-CHAS": 181.44,
   "SRX5800X-CHAS-BB": 181.44,
@@ -217,6 +219,22 @@
         <button id="refresh-button" style="padding:8px 12px;background:#555;color:white;border:none;border-radius:5px;margin-left:8px;">Re-Count</button>
         <button id="export-button" style="padding:8px 12px;background:#28a745;color:white;border:none;border-radius:5px;margin-left:8px;">Export CSV</button>
         <button id="sort-button" style="padding:8px 12px;background:#6c757d;color:white;border:none;border-radius:5px;margin-left:8px;">Sort Bins</button>
+      </div>
+      <style>
+      .example {
+                width: 890px;
+                height: 80px;
+                border: 1px solid black;
+                padding: 10px;
+                margin: 10px;
+               }
+      </style>
+      <div class="example">
+      <h4>How to Use Search:</h4>
+       <ul>
+          <li>Search all Bins by Site and Room: Format — SITE.ROOM <b>(e.g., AKL60.PARTS)</b></li>
+          <li>Search a Specific Bin by Bin ID and Site/Cluster: Format — BIN ID && SITE/CLUSTER <b>(e.g., P105C1 && AKL or P105C1 && AKL60)</b></li>
+       </ul>
       </div>
       <table style="width:100%;border-collapse:collapse;text-align:center;">
         <thead>
