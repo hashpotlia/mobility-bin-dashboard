@@ -5,8 +5,8 @@
 // @description  Real-time BIN Weight + Count dashboard for Mobility!
 // @author       @hpotlia
 // @match        https://mobility.amazon.com/
-// @updateURL    https://raw.githubusercontent.com/hpotlia/mobility-bin-dashboard/main/bin-dashboard.user.js
-// @downloadURL  https://raw.githubusercontent.com/hpotlia/mobility-bin-dashboard/main/bin-dashboard.user.js
+// @updateURL    https://github.com/hashpotlia/mobility-bin-dashboard/raw/refs/heads/main/bin-dashboard.user.js
+// @downloadURL  https://github.com/hashpotlia/mobility-bin-dashboard/raw/refs/heads/main/bin-dashboard.user.js
 // @grant        none
 // ==/UserScript==
 
